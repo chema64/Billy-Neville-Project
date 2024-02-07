@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="10">
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             
             <a class="navbar-brand" href="#">
@@ -23,27 +24,87 @@
                 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#section1">Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Photos</a>
+                        <a class="nav-link" href="#section2">Music</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
+                        <a class="nav-link" href="#section3">Posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Posts</a>
+                        <a class="nav-link" href="#section4">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#section5">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    
+    <div class="jumbotron p-5  bg-light text-white  border rounded-3 text-center">
+        
+        <div class="d-none d-sm-block ">
+            <h1 class="display-1">Billy Neville Project</h1>
+            <p  class="lead display-5">by Billy Neville</p>
+        </div>
+        
+        
+        <div class="d-block d-sm-none" >
+            <h1  class="display-6">Billy Neville Project</h1>
+            <p  >by Billy Neville</p>
+            
+        </div>
+        
+    </div>
+    
+    <div id="section1" class="container-fluid  pt-5"  >
+        
+        <h1 class=" " style="padding-top: 300px;">Photos</h1>
+        
+        <div class="row">
+        </div>
+        
+    </div>
+
+    <div id="section2" class="container-fluid  pt-5"  >
+        
+        <h1 class="  " style="padding-top: 300px;">Music</h1>
+        
+        <div class="row">
+        </div>
+        
+    </div>
+
+    <div id="section3" class="container-fluid  pt-5"  >
+        
+        <h1 class="  "  style="padding-top: 300px;">Posts</h1>
+        
+        <div class="row">
+        </div>
+        
+    </div>
+
+    <div id="section4" class="container-fluid  pt-5"  >
+        
+        <h1 class="  "  style="padding-top: 300px;">About</h1>
+        
+        <div class="row">
+        </div>
+        
+    </div>
+
+    <div id="section5" class="container-fluid  pt-5"  >
+        
+        <h1 class="  "  style="padding-top: 300px; padding-bottom: 300px;">Contact</h1>
+        
+        <div class="row">
+        </div>
+        
+    </div>
+    
+    
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

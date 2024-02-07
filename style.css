@@ -1,0 +1,77 @@
+.jumbotron {
+    background-image: url(./img/jumbotron2.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+   opacity: .99; 
+   margin-top: 140px;
+  }
+
+  
+
+.jumbotron h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:green;
+    text-shadow: 2px 2px 7px gold
+    
+}
+
+.jumbotron p {
+
+  color:green;
+  text-shadow: 2px 2px 7px gold
+  
+}
+
+/*Extra Small
+All smart phones
+*/
+@media (max-width: 575px) {
+	
+	.jumbotron h1 {
+    padding-top:0px;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px 1px gold
+   
+}
+
+
+.jumbotron p {
+
+color:green;
+text-shadow: 2px 2px 1px gold
+
+}
+
+}
+
+/*Small
+iPhone 6/7/8 in lanscape mode
+*/
+@media  (min-width: 576px)  {
+	
+
+}
+
+/*Medium
+Standard iPad
+*/
+@media  (min-width: 768px)  {
+	
+	
+}
+
+/*Large
+iPad Pro 
+*/
+@media  (min-width: 992px)  {
+
+}
+
+/*Extra Large
+Surface Pro 4, PCs & laptops
+*/
+@media (min-width: 1200px) {
+
+}
