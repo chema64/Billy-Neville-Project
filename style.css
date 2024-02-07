@@ -1,9 +1,9 @@
 .jumbotron {
-    background-image: url(./img/jumbotron2.png);
+    background-image: url(./img/site/jumbotron2.png);
     background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-   opacity: .99; 
+   opacity: .92; 
    margin-top: 140px;
   }
 
@@ -22,6 +22,20 @@
   color:green;
   text-shadow: 2px 2px 7px gold
   
+}
+
+#billyCarousel .carousel-control-prev-icon {
+
+  border: thin solid black;
+  background-color: red;
+
+}
+
+#billyCarousel .carousel-control-next-icon {
+
+  border: thin solid black;
+  background-color: red;
+
 }
 
 /*Extra Small
