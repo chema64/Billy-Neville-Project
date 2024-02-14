@@ -109,8 +109,64 @@
         
         <h1 class="  pt-5" >Music</h1>
         
-        <div class="row">
-        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="./img/music/musicCover.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rightly So</h5>
+                  <audio id="myAudio"  src="./music/t-rex-roar.mp3" type="audio/mpeg" controls="controls"></audio>
+                  <button type="button" class="btn btn-success" onclick="downloadAudio()">Download</button>
+                  <a href="./music/t-rex-roar.mp3" download="t-rex-roar">test</a>
+
+                  <audio controls>  
+                    <source src="./music/t-rex-roar.mp3" type="audio/mpeg" download="t-rex-roar"/>    
+                    
+               </audio>
+
+               <a href="./music/t-rex-roar.mp3" download="filename.mp3">DownloadButton</a> 
+
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/music/musicCover.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/music/musicCover.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/music/musicCover.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="./img/music/musicCover.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
         
     </div>
 
@@ -200,5 +256,6 @@
 </div> 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./script/music.js" charset="utf-8"></script>
 </body>
 </html>

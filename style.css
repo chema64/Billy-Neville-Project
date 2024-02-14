@@ -107,6 +107,13 @@
   --bs-nav-link-color: #aaa311;
 }
 
+audio{
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  object-fit: contain;
+}
+
 
 /*Extra Small
 All smart phones
