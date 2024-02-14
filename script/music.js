@@ -5,11 +5,11 @@
         console.log(url);
 
          var myArray = url.split("/");
-         console.log(myArray[7]);
+         console.log(myArray[5]);
 
         var a = document.createElement('a');
-         a.href = url;
-         a.download = "t-rex-roar";
+        a.href = url;
+        a.download = myArray[5];
         a.click();
 
         
