@@ -83,6 +83,17 @@
   text-shadow: 2px 2px 4px gold;
 }
 
+#section3 #postNote01 {
+
+  width: 20rem;
+}
+
+
+#section3 #postNote02 {
+
+  width: 20rem;
+}
+
 #section4 h1 {
   color: green;
   text-shadow: 2px 2px 4px gold;
@@ -183,6 +194,16 @@ All smart phones
     color:green;
     text-shadow: 2px 2px 1px gold
     
+  }
+
+  #section3 #postNote01 {
+    /* border: thin solid red; */
+    width: auto;
+  }
+
+  #section3 #postNote02 {
+
+    width: auto;
   }
   
   #section4 .card {
