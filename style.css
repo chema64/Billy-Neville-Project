@@ -15,10 +15,10 @@
 }
 
 .intro {
-  background-image: url(./img/site/websiteBackground06.png); 
-  background-repeat: no-repeat;  
-  /* background-position: center; */
-  background-size:cover;     
+  background-image: url(./img/site/websiteBackground04Lightness31.png); 
+  background-repeat: repeat;  
+  background-position: center;  
+  background-size: contain;     
   
 }
 
@@ -221,6 +221,15 @@ All smart phones
   
   #section5 .bi {
     font-size: 1.5rem;
+  }
+
+  .intro {
+    background-image: url(./img/site/websiteBackground07Lightness31.png); 
+    background-repeat: repeat;  
+    background-position: center;  
+    background-size: contain;  
+    /* border: thick solid green;    */
+    
   }
   
   /* body {
