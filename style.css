@@ -1,11 +1,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 .nav-pills {
-  --bs-nav-pills-link-active-bg: green;
+  --bs-nav-pills-link-active-bg: grey;
 }
 
-.nav {
-  --bs-nav-link-color: #aaa311;
+.nav-link {
+  color: black;
 }
 
 
@@ -107,7 +107,7 @@
 
 #section4 .card h3 {
   
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #white;
 }
 
 #section5 h1 {
