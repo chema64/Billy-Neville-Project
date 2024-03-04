@@ -11,7 +11,7 @@
 
 .nav-item {
 
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .intro {
@@ -29,6 +29,7 @@
   background-size: cover;
   /* opacity: .92;  */
   margin-top: 130px;
+   height: 375px; 
 }
 
 
@@ -37,14 +38,14 @@
   padding-top: 50px;
   padding-bottom: 50px;
   color:green;
-  text-shadow: 2px 2px 7px gold
+  text-shadow: 2px 2px 7px black
   
 }
 
 .jumbotron p {
   
   color:green;
-  text-shadow: 2px 2px 7px gold
+  text-shadow: 2px 2px 7px black
   
 }
 
@@ -69,18 +70,18 @@
 }
 
 #section1 h1 {
-  color: green;
-  text-shadow: 2px 2px 4px gold;
+  color: black;
+  text-shadow: 2px 2px 4px white;
 }
 
 #section2 h1 {
-  color: green;
-  text-shadow: 2px 2px 4px gold;
+  color: grblackeen;
+  text-shadow: 2px 2px 4px white;
 }
 
 #section3 h1 {
-  color: green;
-  text-shadow: 2px 2px 4px gold;
+  color: black;
+  text-shadow: 2px 2px 4px white;
 }
 
 #section3 #postNote01 {
@@ -95,8 +96,8 @@
 }
 
 #section4 h1 {
-  color: green;
-  text-shadow: 2px 2px 4px gold;
+  color: black;
+  text-shadow: 2px 2px 4px white;
 }
 
 #section4 .card {
@@ -110,12 +111,12 @@
 }
 
 #section5 h1 {
-  color: green;
-  text-shadow: 2px 2px 4px gold;
+  color: black;
+  text-shadow: 2px 2px 4px white;
 }
 
 #section5 #contactData {
-  text-shadow: 2px 2px 4px gold;
+  text-shadow: 2px 2px 4px white;
 }
 
 #section5 #contactData p{
@@ -128,11 +129,11 @@
 
 #section5 .bi {
   font-size: 2.5rem;
-  color: green;
+  color: black;
 }
 
 #section5 a {
-  color: green;
+  color: black;
 }
 
 
@@ -180,11 +181,15 @@ All smart phones
 
     font-size: 1rem;
   }
+
+  .jumbotron {
+    height: 180px;
+  }
   
   .jumbotron h1 {
     padding-top:0px;
     padding-bottom: 0px;
-    text-shadow: 2px 2px 1px gold
+    text-shadow: 2px 2px 1px black
     
   }
   
@@ -192,7 +197,7 @@ All smart phones
   .jumbotron p {
     
     color:green;
-    text-shadow: 2px 2px 1px gold
+    text-shadow: 2px 2px 1px black
     
   }
 
