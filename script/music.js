@@ -1,7 +1,7 @@
 
       function downloadAudio(buttonElement) {
         
-        var buttonParent = buttonElement.closest('#button2');
+        var buttonParent = buttonElement.closest('.d-flex.justify-content-center');
         console.log(buttonParent);
         var audioElement = buttonParent.previousElementSibling;
         console.log(audioElement);
